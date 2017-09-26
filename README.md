@@ -58,7 +58,9 @@ yarn install
     ```
     <link href="https://link.com/style.css" />
     <srcipt src="https://link.com/app.js"></script>
-    <script></script>
+    <script>
+      yourFunction()
+    </script>
     ```
 
 * **Adding Local Resource**
@@ -93,6 +95,15 @@ We are using [Airbnb/Enzyme](airbnb.io/enzyme/docs/api/) with [Mocha](https://mo
   ```
   yarn test:watch
   ```
+### Publishing to NPM
+
+Import your React Component into `index.js` which is in the root project. 
+
+* **Prepublish**
+All React components that are in the `src` directory, will be converted to es5 into `dist` directory to be read as npm package. Are you can do it manually 
+```
+yarn run prepublish
+```
 
 ## Changelog
 Please visit the folowing file [CHANGELOG.md](./CHANGELOG.md)
