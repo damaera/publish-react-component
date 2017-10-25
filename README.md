@@ -5,7 +5,7 @@ Boilerplate for publishing react component to npm
 - [NodeJS (Recomendation : Latest LTS Version: v6.11.3 (includes npm 3.10.10))](https://nodejs.org/en/download/)
 - [Yarn (optional, )]()
 
-## Instalation
+## Installation
 
 Just clone this repo and start developing your custom, testable react component
 
@@ -77,7 +77,7 @@ yarn install
 
 ### Testing
 
-We are using [Airbnb/Enzyme](airbnb.io/enzyme/docs/api/) with [Mocha](https://mochajs.org/) as testing utility for React that makes it easier to assert, manipulate, and traverse your React Components' output.
+We are using [Airbnb/Enzyme](airbnb.io/enzyme/docs/api/) with [Mocha](https://mochajs.org/) as testing utility for React that makes it easier to assert, manipulate, and traverse your React Component's output.
 
 * **Sample**
 
@@ -108,7 +108,7 @@ yarn run prepublish
 ## Changelog
 Please visit the folowing file [CHANGELOG.md](./CHANGELOG.md)
 
-## Thins to Learn
+## Things to Learn
 - [ReactJS](https://facebook.github.io/react/)
 - [ReactStoryBook](https://storybook.js.org/)
 - [Mocha](https://mochajs.org/)
